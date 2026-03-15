@@ -1,5 +1,6 @@
 body{
   background-image: url(assets/background.png);
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,12 +14,13 @@ body{
 
 .container{
   padding-bottom: 50vh;
+  margin-right: 200px;
 }
 
 .clock{
   color: #00d4ff;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 6rem;
+font-size: clamp(3rem, 10vw, 6rem);
   font-weight: bold;
   text-align: center;
   text-shadow: 
